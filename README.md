@@ -8,7 +8,6 @@ This project is a simple implementation of an ERC-20-like token in Solidity, wit
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contact](#contact)
 
 ## Project Overview
@@ -43,3 +42,20 @@ To set up and run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/coin-token.git
+
+
+## Usage
+Minting Tokens: To mint new tokens, call the mint function with the recipient's address and the amount of tokens to mint.
+Burning Tokens: To burn tokens, call the burn function with the address and the amount of tokens to burn. Ensure that the address has sufficient balance.
+
+Example of minting tokens:
+(a) mint(0xYourAddressHere, 100);
+(b) burn(0xYourAddressHere, 50);
+
+
+## Contact
+For any questions or support, feel free to reach out:
+
+GitHub: @deepakk-singh
+Email: dipakkumar4167@gmail.com
+
