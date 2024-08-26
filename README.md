@@ -35,19 +35,19 @@ Once the contract is deployed, you can interact with it by calling the sayHello 
 
 ## Getting Started
 # Installing
-User can clone this repository to there local system or can dowload zip file.
-User is required to install Node.js prior before executing the program.
-Executing program
-after cloning the Repository, open first terminal and enter the commands:
+# User can clone this repository to there local system or can dowload zip file.
+# User is required to install Node.js prior before executing the program.
+# Executing program
+# after cloning the Repository, open first terminal and enter the commands:
 npm i
 npm install @openzeppelin/contracts
-Now open second terminal and enter the following commands to compile the contract if not compiled yet:
+# Now open second terminal and enter the following commands to compile the contract if not compiled yet:
 npx hardhat compile
-Now Start the hardhat node:
+# Now Start the hardhat node:
 npx hardhat node
-Finally in the third terminal, deploy the contract on hardhat localhost, using the following command:
+# Finally in the third terminal, deploy the contract on hardhat localhost, using the following command:
 npx hardhat run --network localhost scripts/deploy.js
-This will deploy the contract successfully.
+#This will deploy the contract successfully.
 
 ## Help
 To Understand the Hardhat commands on can use this command in terminal:
